@@ -45,6 +45,6 @@ def add_yours_line_notes(recipe_path):
     return
 def allergies(ingredient):
         for i in all_recipes:
-            
+            print("i")
 
     
