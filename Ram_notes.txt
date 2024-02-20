@@ -1,0 +1,87 @@
+******************************** Notes ********************************
+
+
+
+
+
+--------------- Linux -----------------
+
+## Usefull commands for linux terminal ##
+
+- pwd                              : print working directory\folder
+- cd                               : change directory
+- cd ..                            : go back to the origin directory
+- mkdir                            : making a new directory
+- rmdir                            : delete directory ONLY
+- ls (-a : for all files)          : What's inside the current directory (files are white and directories are blue)
+- touch                            : creating a new file (NEEDS an extention as .txt or .py)
+- cp                               : copy and paste for a file from one directory to another directory (NEEDS to use the exact location of the file)
+- mv                               : cut and paste for a file
+- rm                               : remove a file from the directory
+- chmod                            : Change mode {+\- , w\r\x , file name in the directory}
+- chmod 777 -R (path to directory) : unblock a directory
+- file                             : which kind of file it is (only in the current directory)
+- cat > [file name.txt]            : rewrite for a text file
+- sort                             : sorting the text file according to ASCII rules
+- man                              : manual for each command
+- find ~ -name [file]              : search the file(s) in the whole computre
+- find ./directory -name [file]    : search the file(s) in a directory
+- find ~ *.txt                     : search for this kind of files in the while compure
+- echo                             : print the argument(s) after the command
+- echo {.,.}{.,.}{.,.}             : print the argumest(s) with all the combinations of the arguments
+- echo (...) | bc -l               : calculate and print the mathematical operation arguments
+- yes                              : print an infinite string
+- time                             : how much time it takes for this operation to run
+- sudo                             : if there is a premission problem
+- ln                               : Hard-linked (Shorcut) - not fir directory!
+- ln -s                            : Soft-linked (shorcut) - breaks if the original file is removed.
+- gzip\gunzip [file(s)]            : compress\decompress file(s)       
+- diff                             : looking for a difference between two almost similar txt files
+- code .                           : open the files that i pulled in VS
+
+
+--------------- Windows -----------------
+
+## Usefull commands for Windows terminal ##
+
+- cd                               : change directory
+- cd ..                            : go back to the origin directory
+- dir /a                           : like ls -a
+
+
+--------------- Visual Studio Code -----------------
+
+
+
+
+
+--------------- Git -----------------
+
+Git token -
+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
+
+when i want to push:
+git status
+git add .
+git commit -m "something"
+git push
+
+first time:
+cd " "
+git clone "https://github.com/Ramhamer/trial.git"
+
+git pull
+username - danszwec
+TOKEN - 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
+
+
+git rm -r --cached (file)
+git branch (-a : for all branches)
+
+
+
+
+
+
+
+
