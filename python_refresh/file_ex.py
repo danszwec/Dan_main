@@ -47,7 +47,7 @@ def allergies(ingredient):
         for recipe in all_recipes:
             ing_list=read_ingredients(recipe)
             if ingredient in ing_list: 
-                print("s")
+                print("rt")
 
             
 

@@ -52,7 +52,7 @@
 --------------- Visual Studio Code -----------------
 
 
-
+jfds;
 
 
 --------------- Git -----------------
@@ -73,7 +73,8 @@ git clone "https://github.com/Ramhamer/trial.git"
 git pull
 username - danszwec
 TOKEN - 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
-
+TOKEN _ under dan user -
+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
 
 git rm -r --cached (file)
 git branch (-a : for all branches)
