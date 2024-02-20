@@ -20,7 +20,7 @@ def read_Directions(recipe_path):
                 first_line = recipe_list(i)
         print(recipe_list[first_line:])
     return
-def read_Directions(recipe_path):
+def read_description(recipe_path):
     with open(recipe_path, "a") as my_recipe:
         recipe_list = my_recipe.readlines()
         for i in recipe_list:
@@ -41,10 +41,14 @@ def add_yours_line_notes(recipe_path):
         recipe_list[line_num -1] = recipe_list[line_num -1] + '/n'
     with open(recipe_path, "w") as my_recipe:   
         my_recipe.writelines(recipe_list)
-    print ("Note written successfully.")
+    print("Note written successfully.")
     return
 def allergies(ingredient):
-        for i in all_recipes:
-            print("i")
+        for recipe in all_recipes:
+            ing_list=read_ingredients(recipe)
+            if ingredient in ing_list: 
+                print("s")
+
+            
 
     
